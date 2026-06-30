@@ -12,8 +12,8 @@
 - name: install boto3 botocore
   pip:
     name:
-    - boto3
-    - botocore
+      - boto3
+      - botocore
     executable: pip3.9
 - name: start and enable mysql server
   service:
